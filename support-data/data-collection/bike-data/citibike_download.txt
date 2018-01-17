@@ -1,0 +1,149 @@
+curl https://s3.amazonaws.com/tripdata/201701-citibike-tripdata.csv.zip > 201701.zip
+curl https://s3.amazonaws.com/tripdata/201702-citibike-tripdata.csv.zip > 201702.zip
+curl https://s3.amazonaws.com/tripdata/201703-citibike-tripdata.csv.zip > 201703.zip
+curl https://s3.amazonaws.com/tripdata/201704-citibike-tripdata.csv.zip > 201704.zip
+curl https://s3.amazonaws.com/tripdata/201705-citibike-tripdata.csv.zip > 201705.zip
+curl https://s3.amazonaws.com/tripdata/201706-citibike-tripdata.csv.zip > 201706.zip
+curl https://s3.amazonaws.com/tripdata/201707-citibike-tripdata.csv.zip > 201707.zip
+curl https://s3.amazonaws.com/tripdata/201708-citibike-tripdata.csv.zip > 201708.zip
+curl https://s3.amazonaws.com/tripdata/201709-citibike-tripdata.csv.zip > 201709.zip
+
+unzip 201701.zip -d citibike/
+unzip 201702.zip -d citibike/
+unzip 201703.zip -d citibike/
+unzip 201704.zip -d citibike/
+unzip 201705.zip -d citibike/
+unzip 201706.zip -d citibike/
+unzip 201707.zip -d citibike/
+unzip 201708.zip -d citibike/
+unzip 201709.zip -d citibike/
+
+rm 201701.zip
+rm 201702.zip
+rm 201703.zip
+rm 201704.zip
+rm 201705.zip
+rm 201706.zip
+rm 201707.zip
+rm 201708.zip
+rm 201709.zip
+
+curl https://s3.amazonaws.com/tripdata/201601-citibike-tripdata.zip > 201601.zip
+curl https://s3.amazonaws.com/tripdata/201602-citibike-tripdata.zip > 201602.zip
+curl https://s3.amazonaws.com/tripdata/201603-citibike-tripdata.zip > 201603.zip
+curl https://s3.amazonaws.com/tripdata/201604-citibike-tripdata.zip > 201604.zip
+curl https://s3.amazonaws.com/tripdata/201605-citibike-tripdata.zip > 201605.zip
+curl https://s3.amazonaws.com/tripdata/201606-citibike-tripdata.zip > 201606.zip
+curl https://s3.amazonaws.com/tripdata/201607-citibike-tripdata.zip > 201607.zip
+curl https://s3.amazonaws.com/tripdata/201608-citibike-tripdata.zip > 201608.zip
+curl https://s3.amazonaws.com/tripdata/201609-citibike-tripdata.zip > 201609.zip
+curl https://s3.amazonaws.com/tripdata/201610-citibike-tripdata.zip > 201610.zip
+curl https://s3.amazonaws.com/tripdata/201611-citibike-tripdata.zip > 201611.zip
+curl https://s3.amazonaws.com/tripdata/201612-citibike-tripdata.zip > 201612.zip
+
+unzip 201601.zip -d citibike/
+unzip 201602.zip -d citibike/
+unzip 201603.zip -d citibike/
+unzip 201604.zip -d citibike/
+unzip 201605.zip -d citibike/
+unzip 201606.zip -d citibike/
+unzip 201607.zip -d citibike/
+unzip 201608.zip -d citibike/
+unzip 201609.zip -d citibike/
+unzip 201610.zip -d citibike/
+unzip 201611.zip -d citibike/
+unzip 201612.zip -d citibike/
+
+rm 201601.zip
+rm 201602.zip
+rm 201603.zip
+rm 201604.zip
+rm 201605.zip
+rm 201606.zip
+rm 201607.zip
+rm 201608.zip
+rm 201609.zip
+rm 201610.zip
+rm 201611.zip
+rm 201612.zip
+
+curl https://s3.amazonaws.com/tripdata/201501-citibike-tripdata.zip > 201501.zip
+curl https://s3.amazonaws.com/tripdata/201502-citibike-tripdata.zip > 201502.zip
+curl https://s3.amazonaws.com/tripdata/201503-citibike-tripdata.zip > 201503.zip
+curl https://s3.amazonaws.com/tripdata/201504-citibike-tripdata.zip > 201504.zip
+curl https://s3.amazonaws.com/tripdata/201505-citibike-tripdata.zip > 201505.zip
+curl https://s3.amazonaws.com/tripdata/201506-citibike-tripdata.zip > 201506.zip
+curl https://s3.amazonaws.com/tripdata/201507-citibike-tripdata.zip > 201507.zip
+curl https://s3.amazonaws.com/tripdata/201508-citibike-tripdata.zip > 201508.zip
+curl https://s3.amazonaws.com/tripdata/201509-citibike-tripdata.zip > 201509.zip
+curl https://s3.amazonaws.com/tripdata/201510-citibike-tripdata.zip > 201510.zip
+curl https://s3.amazonaws.com/tripdata/201511-citibike-tripdata.zip > 201511.zip
+curl https://s3.amazonaws.com/tripdata/201512-citibike-tripdata.zip > 201512.zip
+
+unzip 201501.zip -d citibike/
+unzip 201502.zip -d citibike/
+unzip 201503.zip -d citibike/
+unzip 201504.zip -d citibike/
+unzip 201505.zip -d citibike/
+unzip 201506.zip -d citibike/
+unzip 201507.zip -d citibike/
+unzip 201508.zip -d citibike/
+unzip 201509.zip -d citibike/
+unzip 201510.zip -d citibike/
+unzip 201511.zip -d citibike/
+unzip 201512.zip -d citibike/
+
+rm 201501.zip
+rm 201502.zip
+rm 201503.zip
+rm 201504.zip
+rm 201505.zip
+rm 201506.zip
+rm 201507.zip
+rm 201508.zip
+rm 201509.zip
+rm 201510.zip
+rm 201511.zip
+rm 201512.zip
+
+mkdir 2015
+mv 201501-citibike-tripdata.csv 2015/201501.csv
+mv 201502-citibike-tripdata.csv 2015/201502.csv
+mv 201503-citibike-tripdata.csv 2015/201503.csv
+mv 201504-citibike-tripdata.csv 2015/201504.csv
+mv 201505-citibike-tripdata.csv 2015/201505.csv
+mv 201506-citibike-tripdata.csv 2015/201506.csv
+mv 201507-citibike-tripdata.csv 2015/201507.csv
+mv 201508-citibike-tripdata.csv 2015/201508.csv
+mv 201509-citibike-tripdata.csv 2015/201509.csv
+mv 201510-citibike-tripdata.csv 2015/201510.csv
+mv 201511-citibike-tripdata.csv 2015/201511.csv
+mv 201512-citibike-tripdata.csv 2015/201512.csv
+
+mkdir 2016
+mv 201601-citibike-tripdata.csv 2016/201601.csv
+mv 201602-citibike-tripdata.csv 2016/201602.csv
+mv 201603-citibike-tripdata.csv 2016/201603.csv
+mv 201604-citibike-tripdata.csv 2016/201604.csv
+mv 201605-citibike-tripdata.csv 2016/201605.csv
+mv 201606-citibike-tripdata.csv 2016/201606.csv
+mv 201607-citibike-tripdata.csv 2016/201607.csv
+mv 201608-citibike-tripdata.csv 2016/201608.csv
+mv 201609-citibike-tripdata.csv 2016/201609.csv
+mv 201610-citibike-tripdata.csv 2016/201610.csv
+mv 201611-citibike-tripdata.csv 2016/201611.csv
+mv 201612-citibike-tripdata.csv 2016/201612.csv
+
+mkdir 2017
+mv 201701-citibike-tripdata.csv 2017/201701.csv
+mv 201702-citibike-tripdata.csv 2017/201702.csv
+mv 201703-citibike-tripdata.csv 2017/201703.csv
+mv 201704-citibike-tripdata.csv 2017/201704.csv
+mv 201705-citibike-tripdata.csv 2017/201705.csv
+mv 201706-citibike-tripdata.csv 2017/201706.csv
+mv 201707-citibike-tripdata.csv 2017/201707.csv
+mv 201708-citibike-tripdata.csv 2017/201708.csv
+mv 201709-citibike-tripdata.csv 2017/201709.csv
+
+
+

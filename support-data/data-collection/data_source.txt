@@ -1,0 +1,12 @@
+Weather data:
+https://www.ncdc.noaa.gov/cdo-web/
+
+Taxi data:
+http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml
+
+CitiBike data:
+https://www.citibikenyc.com/system-data
+
+
+
+

@@ -1,0 +1,60 @@
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2016/2016-01/bus_time_201601[01-31].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2016/2016-02/bus_time_201602[01-29].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2016/2016-03/bus_time_201603[01-31].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2016/2016-04/bus_time_201604[01-30].csv.xz
+
+unxz *.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2016/2016-05/bus_time_201605[01-31].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2016/2016-06/bus_time_201606[01-30].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2016/2016-07/bus_time_201607[01-31].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2016/2016-08/bus_time_201608[01-31].csv.xz
+
+unxz *.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2016/2016-09/bus_time_201609[01-30].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2016/2016-10/bus_time_201610[01-31].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2016/2016-11/bus_time_201611[01-30].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2016/2016-12/bus_time_201612[01-31].csv.xz
+
+unxz *.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2015/2015-01/bus_time_201501[01-31].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2015/2015-02/bus_time_201502[01-28].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2015/2015-03/bus_time_201503[01-31].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2015/2015-04/bus_time_201504[01-30].csv.xz
+
+unxz *.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2015/2015-05/bus_time_201505[01-31].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2015/2015-06/bus_time_201506[01-30].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2015/2015-07/bus_time_201507[01-31].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2015/2015-08/bus_time_201508[01-31].csv.xz
+
+unxz *.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2015/2015-09/bus_time_201509[01-30].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2015/2015-10/bus_time_201510[01-31].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2015/2015-11/bus_time_201511[01-30].csv.xz
+
+curl -O http://data.mytransit.nyc.s3.amazonaws.com/bus_time/2015/2015-12/bus_time_201512[01-31].csv.xz
+
+unxz *.xz
+

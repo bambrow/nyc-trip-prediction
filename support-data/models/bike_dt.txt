@@ -1,0 +1,47 @@
+DecisionTreeModel regressor of depth 4 with 31 nodes
+  If (feature 10 <= 2350.5370961040085)
+   If (feature 10 <= 1200.6913261509728)
+    If (feature 10 <= 826.4904997361792)
+     If (feature 13 <= 1957.0)
+      Predict: 456.52941176470586
+     Else (feature 13 > 1957.0)
+      Predict: 322.4990723562152
+    Else (feature 10 > 826.4904997361792)
+     If (feature 10 <= 996.2243014656063)
+      Predict: 417.019801980198
+     Else (feature 10 > 996.2243014656063)
+      Predict: 475.4988038277512
+   Else (feature 10 > 1200.6913261509728)
+    If (feature 10 <= 1630.0037873454537)
+     If (feature 1 <= 0.37181712962962965)
+      Predict: 522.2016806722689
+     Else (feature 1 > 0.37181712962962965)
+      Predict: 619.3971088435375
+    Else (feature 10 > 1630.0037873454537)
+     If (feature 10 <= 1901.2629645648292)
+      Predict: 733.5054432348367
+     Else (feature 10 > 1901.2629645648292)
+      Predict: 853.9102870813397
+  Else (feature 10 > 2350.5370961040085)
+   If (feature 10 <= 4015.3965579096425)
+    If (feature 10 <= 3048.368821274422)
+     If (feature 10 <= 2750.578616985021)
+      Predict: 996.0875486381323
+     Else (feature 10 > 2750.578616985021)
+      Predict: 1133.070038910506
+    Else (feature 10 > 3048.368821274422)
+     If (feature 10 <= 3473.0359031398284)
+      Predict: 1228.1894409937888
+     Else (feature 10 > 3473.0359031398284)
+      Predict: 1355.5140186915887
+   Else (feature 10 > 4015.3965579096425)
+    If (feature 10 <= 5257.850244566399)
+     If (feature 7 <= -73.99726235)
+      Predict: 1438.6754385964912
+     Else (feature 7 > -73.99726235)
+      Predict: 1653.389705882353
+    Else (feature 10 > 5257.850244566399)
+     If (feature 10 <= 6667.118602209234)
+      Predict: 1850.300518134715
+     Else (feature 10 > 6667.118602209234)
+      Predict: 2192.5625

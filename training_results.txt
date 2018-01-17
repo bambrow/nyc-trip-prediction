@@ -1,0 +1,22 @@
+Taxi
+
+DT
+All Data Mean Squared Error = 73273.29194995298
+
+RF
+All Data Mean Squared Error = 50926.22816210175
+
+LR
+All Data Mean Squared Error = 160057.03456374203
+
+
+Bike
+
+DT
+All Data Mean Squared Error = 88376.21009460615
+
+RF
+All Data Mean Squared Error = 59166.69651210223
+
+LR
+All Data Mean Squared Error = 91273.5171727033

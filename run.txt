@@ -1,0 +1,58 @@
+module load sbt/0.13.11
+
+cd proj
+
+sbt package
+
+
+
+Usage: NYC_Trip_Prediction <weather_data_directory> <trip_data_directory> <model_directory> <kmeans_directory> <Taxi|Bike> <DT|RF|LR> <Training|Test|Prediction>
+
+spark-submit --class NYC_Trip_Prediction <jar> <weather_data_directory> <trip_data_directory> <model_directory> <kmeans_directory> <Taxi|Bike> <DT|RF|LR> <Training|Test|Prediction>
+
+
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/taxi_sample proj/taxi_dt proj/kmeans_taxi_dt taxi dt training
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/taxi_sample proj/taxi_dt proj/kmeans_taxi_dt taxi dt test
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/taxi_for_pred proj/taxi_dt proj/kmeans_taxi_dt taxi dt prediction
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/taxi_sample proj/taxi_rf proj/kmeans_taxi_rf taxi rf training
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/taxi_sample proj/taxi_rf proj/kmeans_taxi_rf taxi rf test
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/taxi_for_pred proj/taxi_rf proj/kmeans_taxi_rf taxi rf prediction
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/taxi_sample proj/taxi_lr proj/kmeans_taxi_lr taxi lr training
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/taxi_sample proj/taxi_lr proj/kmeans_taxi_lr taxi lr test
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/taxi_for_pred proj/taxi_lr proj/kmeans_taxi_lr taxi lr prediction
+
+
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/bike_sample proj/bike_dt proj/kmeans_bike_dt bike dt training
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/bike_sample proj/bike_dt proj/kmeans_bike_dt bike dt test
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/bike_for_pred proj/bike_dt proj/kmeans_bike_dt bike dt prediction
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/bike_sample proj/bike_rf proj/kmeans_bike_rf bike rf training
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/bike_sample proj/bike_rf proj/kmeans_bike_rf bike rf test
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/bike_for_pred proj/bike_rf proj/kmeans_bike_rf bike rf prediction
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/bike_sample proj/bike_lr proj/kmeans_bike_lr bike lr training
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/bike_sample proj/bike_lr proj/kmeans_bike_lr bike lr test
+
+spark-submit --class NYC_Trip_Prediction target/scala-2.10/nyc-trip-prediction-bdad-final-project_2.10-0.4.jar proj/weather proj/bike_for_pred proj/bike_lr proj/kmeans_bike_lr bike lr prediction
+
+
+
+yarn application -list
+yarn application -kill <application_id>
+
+
