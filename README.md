@@ -13,4 +13,4 @@ Can we predict the trip duration of taxi and bike trips in New York City? Which 
 For travel methods like taxis and bikes, we study whether we can use features like location coordinates, time and weather conditions to predict trip time. We also analyze which features have the most impact on the prediction of trip durations. If the predictions are reasonable, then we can use historical trip and weather data to make reliable predictions of trip duration if location, time, weather and other required features are provided. We can also predict future trips based upon the starting and ending points together with weather forecast and other important features. Commuters using taxis and bikes can utilize the predictions to better schedule commute plans and taxi/bike service providers can also use the prediction to optimize taxi/bike dispatching and improve service quality.
 
 ## Project Report
-The detailed project report has not been uploaded. It will be uploaded after some necessary modifications.
+The detailed project report can be found [here](https://github.com/bambrow/nyc-trip-prediction/blob/master/project_report_github.pdf).
